@@ -29,7 +29,8 @@ class MainActivity : AppCompatActivity() {
             ViewModelProvider(this, MainViewModelFactory(repository)).get(MainViewModel::class.java)
 
         mainViewModel.json.observe(this, Observer {
-            Log.d("RAHUL", it.results.toString())
+            binding.responseTxt.text = it.toString()
+//            Log.d("RAHUL", it.toString())
 //            adapter.updateUserList(it.results)
 
         })
