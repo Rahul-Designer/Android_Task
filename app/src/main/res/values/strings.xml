@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Android Task</string>
     <string name="title_text">sunt aut facere repellat provident occaecati excepturi optio reprehenderit</string>
+    <string name="body_text">quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
